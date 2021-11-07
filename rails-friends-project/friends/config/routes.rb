@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  # this create for 
+  resources :friends
   # get 'home/index'
   get 'home/about'
   root 'home#index'
